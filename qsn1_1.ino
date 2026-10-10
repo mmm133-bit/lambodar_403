@@ -8,18 +8,18 @@
 */
 
 // Replace these with the actual ESP32 GPIO numbers
-const int P1_RPWM =  /* GPIO for R_PWM1 */;
-const int P1_LPWM =  /* GPIO for L_PWM1 */;
-const int P1_REN  =  /* GPIO for R_EN1  */;
-const int P1_LEN  =  /* GPIO for L_EN1  */;
+const int P1_RPWM = 33/* GPIO for R_PWM1 */;
+const int P1_LPWM = 32 /* GPIO for L_PWM1 */;
+const int P1_REN  = 26/* GPIO for R_EN1  */;
+const int P1_LEN  = 13/* GPIO for L_EN1  */;
 
 const int P2_RPWM =  /* GPIO for R_PWM2 */;
 const int P2_LPWM =  /* GPIO for L_PWM2 */;
-const int P2_REN  =  /* GPIO for R_EN2  */;
-const int P2_LEN  =  /* GPIO for L_EN2  */;
+const int P2_REN  =  28/* GPIO for R_EN2  */;
+const int P2_LEN  =  27/* GPIO for L_EN2  */;
 
-const int FLOAT_PIN = /* GPIO connected to FS */;
-const int SOLENOID_PIN = /* GPIO connected to SV */;
+const int FLOAT_PIN = 35/* GPIO connected to FS */;
+const int SOLENOID_PIN = 27/* GPIO connected to SV */;
 
 // 8-bit PWM: 0 to 255
 const int P1_DUTY = 128;  // approximately 50%
