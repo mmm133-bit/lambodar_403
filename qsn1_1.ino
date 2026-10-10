@@ -13,8 +13,8 @@ const int P1_LPWM = 32 /* GPIO for L_PWM1 */;
 const int P1_REN  = 26/* GPIO for R_EN1  */;
 const int P1_LEN  = 13/* GPIO for L_EN1  */;
 
-const int P2_RPWM =  /* GPIO for R_PWM2 */;
-const int P2_LPWM =  /* GPIO for L_PWM2 */;
+const int P2_RPWM =  31/* GPIO for R_PWM2 */;
+const int P2_LPWM =  30git/* GPIO for L_PWM2 */;
 const int P2_REN  =  28/* GPIO for R_EN2  */;
 const int P2_LEN  =  27/* GPIO for L_EN2  */;
 
@@ -64,8 +64,9 @@ void setup() {
   digitalWrite(P2_LEN, HIGH);
 
   // Pump 2 runs continuously at 100%
-  analogWrite(P2_RPWM, P2_DUTY);
-  analogWrite(P2_LPWM, 0);
+  // Pump 2 runs continuously at 100% using L_PWM2
+  analogWrite(P2_RPWM, 0);
+  analogWrite(P2_LPWM, P2_DUTY);
 
   Serial.println("Case 1 controller started");
 }
