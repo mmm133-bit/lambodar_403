@@ -14,7 +14,7 @@ const int P1_REN  = 26/* GPIO for R_EN1  */;
 const int P1_LEN  = 13/* GPIO for L_EN1  */;
 
 const int P2_RPWM =  31/* GPIO for R_PWM2 */;
-const int P2_LPWM =  30git/* GPIO for L_PWM2 */;
+const int P2_LPWM =  30/* GPIO for L_PWM2 */;
 const int P2_REN  =  28/* GPIO for R_EN2  */;
 const int P2_LEN  =  27/* GPIO for L_EN2  */;
 
