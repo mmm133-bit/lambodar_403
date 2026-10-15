@@ -1,2 +1,7 @@
 # lambodar_403
-Codes involved in the LAM 2026 PS
+
+Submission Files
+
+All deliverables for the Lam Research Challenge 3.0 – Stage 2 are available in the Google Drive folder linked below. It contains our project submissions, including the relevant documentation, reports, code, and supporting materials.
+
+Google Drive: https://drive.google.com/drive/folders/1OzvMGZ1OStVHh8OFcBCt900s4DIgXeBo?usp=drive_link
